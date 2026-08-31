@@ -5,7 +5,7 @@ A machine learning web application that predicts the **Fire Weather Index (FWI)*
 The project uses **Ridge Regression** with feature scaling and is deployed through a **Flask** web application.
 
 ## Live Demo
-https://algerian-forest-fire-prediction-acgn.onrender.com/
+https://algerian-forest-fire-prediction-acgn.onrender.com
 
 ## Application Preview
 ![Application Preview](application.png)
