@@ -152,6 +152,15 @@ source venv/bin/activate
 ```bash
 pip install -r requirements.txt
 ```
+### Run the Application
+```bash
+python application.py
+```
+Open the application in your browser at:
+```bash
+http://127.0.0.1:5000/
+```
+
 
 
 
