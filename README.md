@@ -140,11 +140,11 @@ cd algerian-forest-fire-prediction
 python -m venv venv
 ```
 3. Activate the virtual environment.
-Windows:
+#### Windows:
 ```bash
 venv\Scripts\activate
 ```
-Linux/macOS:
+#### Linux/macOS:
 ```bash
 source venv/bin/activate
 ```
