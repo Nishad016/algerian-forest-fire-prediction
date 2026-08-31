@@ -4,6 +4,9 @@ A machine learning web application that predicts the **Fire Weather Index (FWI)*
 
 The project uses **Ridge Regression** with feature scaling and is deployed through a **Flask** web application.
 
+## Application Preview
+
+
 ##  Overview
 
 The Algerian Forest Fires dataset contains observations from two regions of Algeria:
@@ -160,7 +163,36 @@ Open the application in your browser at:
 ```bash
 http://127.0.0.1:5000/
 ```
+## How It Works
+The application accepts meteorological and fire-weather parameters through a web interface.
 
+The input data is:
+
+1. Collected through the Flask form
+2. Transformed into the required feature format
+3. Standardized using the trained StandardScaler
+4. Passed to the trained Ridge Regression model
+5. Used to generate the predicted Fire Weather Index (FWI)
+
+## Model Performance
+The final Ridge Regression model achieved the following performance on the test split:
+
+| Metric              |  Score |
+| ------------------- | -----: |
+| R² Score            | 0.9843 |
+| Mean Absolute Error |  0.564 |
+
+The high R² score indicates that the model explains a large proportion of the variation in FWI on the held-out test data.
+
+## Future Improvements
+- Improve the frontend design and user experience
+- Add stronger input validation and error handling
+- Experiment with additional regression and ensemble models
+- Add automated model retraining
+- Add unit and integration tests
+- Containerize the application using Docker
+- Add CI/CD with GitHub Actions
+- Deploy the application to a production cloud environment
 
 
 
