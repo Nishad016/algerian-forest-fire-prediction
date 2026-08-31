@@ -8,7 +8,7 @@ The project uses **Ridge Regression** with feature scaling and is deployed throu
 https://algerian-forest-fire-prediction-acgn.onrender.com/
 
 ## Application Preview
-
+![Application Preview](screenshots/application.png)
 
 ##  Overview
 
